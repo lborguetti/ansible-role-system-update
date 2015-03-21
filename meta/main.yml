@@ -1,0 +1,13 @@
+---
+galaxy_info:
+  author: Lucian Antonio Borguetti Faustino
+  description: Updating system.
+  min_ansible_version: 1.4
+  version: 1.0
+  platforms:
+    - name: Ubuntu
+    - name: Fedora
+    versions:
+      - all
+    categories:
+      - system
