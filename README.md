@@ -1,6 +1,8 @@
 system-update
 =========
 
+[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-apache.svg?branch=master)](https://travis-ci.org/lborguetti/ansible-role-system-update)
+
 This Ansible role to update your system.
 
 Requirements
