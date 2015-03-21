@@ -1,16 +1,23 @@
 ---
 galaxy_info:
-  author: Lucian Antonio Borguetti Faustino
-  description: Updating system.
-  min_ansible_version: 1.4
-  version: 1.0
+  author: Luciano Antonio Borguetti Faustino
+  description: Provide system update.
+  company: your company (optional)
+  license: GPLv2
+  min_ansible_version: 1.0
   platforms:
-    - name: Ubuntu
-      versions:
-       - all
-    - name: Fedora
-      versions:
-       - all
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
   categories:
-    - system
-  dependencies: []
+  - system
+dependencies: []
