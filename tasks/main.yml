@@ -1,0 +1,8 @@
+---
+- include: Fedora.yml
+  when: ansible_distribution == 'Fedora'
+  tags: system-update
+
+- include: Ubuntu.yml
+  when: ansible_distribution == 'Ubuntu'
+  tags: system-update
