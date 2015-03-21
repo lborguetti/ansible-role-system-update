@@ -21,9 +21,9 @@ Nothing.
 Example Playbook
 ----------------
 
-    - hosts: servers
-      roles:
-         - { role: lborguetti.system-update }
+        - hosts: servers
+          roles:
+             - { role: lborguetti.system-update }
 
 License
 -------
@@ -33,4 +33,4 @@ BSD
 Author Information
 ------------------
 
-[Luciano Antonio Borguetti Faustinor](https://github.com/lborguetti)
+[Luciano Antonio Borguetti Faustino](https://github.com/lborguetti)
