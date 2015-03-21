@@ -1,25 +1,36 @@
-# system-update
+system-update
+=========
 
-This Ansible role update your system.
+This Ansible role to update your system.
 
-# Requirements
-
-Nothing.
-
-# Role Variables
+Requirements
+------------
 
 Nothing.
 
-# Dependencies.
+Role Variables
+--------------
 
 Nothing.
 
-# License
+Dependencies
+------------
 
-# Examples
+Nothing.
 
-        ---
-        - name: Update system
-          hosts: all
-            roles:
-                - lborguetti/system-update
+Example Playbook
+----------------
+
+    - hosts: servers
+      roles:
+         - { role: lborguetti.system-update }
+
+License
+-------
+
+BSD
+
+Author Information
+------------------
+
+[Luciano Antonio Borguetti Faustinor](https://github.com/lborguetti)
