@@ -6,8 +6,11 @@ galaxy_info:
   version: 1.0
   platforms:
     - name: Ubuntu
+      versions:
+       - all
     - name: Fedora
-    versions:
-      - all
-    categories:
-      - system
+      versions:
+       - all
+  categories:
+    - system
+  dependencies: []
