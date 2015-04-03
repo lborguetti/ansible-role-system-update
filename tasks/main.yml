@@ -1,6 +1,6 @@
 ---
-- include: Fedora.yml
-  when: ansible_distribution == 'Fedora'
+- include: RedHat.yml
+  when: ansible_os_family == 'RedHat'
   tags: system-update
 
 - include: Ubuntu.yml
