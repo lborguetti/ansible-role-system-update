@@ -1,0 +1,13 @@
+image: python2.7
+
+env:
+  - SITE=test.yml
+script:
+  # Install ansible.
+  - pip install ansible
+  # Add ansible.cfg to pick up roles path.
+  - { echo '[defaults]'; echo 'roles_path = ../'; } >> ansible.cfg
+  # Check the role/playbook's syntax.
+  - ansible-playbook -i tests/inventory tests/$SITE --syntax-check
+  # Run the role/playbook with ansible-playbook.
+  - ansible-playbook -i tests/inventory tests/$SITE --connection=local --sudo
