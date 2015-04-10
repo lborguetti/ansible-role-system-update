@@ -1,8 +1,10 @@
-image: python2.7
+image: ubuntu:14.04
 
 env:
   - SITE=test.yml
 script:
+  # Install pip
+  - apt-get install python-pip
   # Install ansible.
   - pip install ansible
   # Add ansible.cfg to pick up roles path.
