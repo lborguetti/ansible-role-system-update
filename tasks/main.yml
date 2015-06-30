@@ -6,3 +6,7 @@
 - include: Ubuntu.yml
   when: ansible_distribution == 'Ubuntu'
   tags: system-update
+
+- include: Debian.yml
+  when: ansible_distribution == 'Debian'
+  tags: system-update

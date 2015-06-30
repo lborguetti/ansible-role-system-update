@@ -1,0 +1,8 @@
+---
+- name: Updating cache
+  apt: update-cache=yes
+  tags: system-update
+
+- name: Running dist-upgrade
+  apt: upgrade=dist
+  tags: system-update
